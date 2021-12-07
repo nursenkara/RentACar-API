@@ -13,6 +13,8 @@ namespace Business.Constants
         public static string EntitiesListed = "Entities Listed!";
         public static string UpdatedMessage = "Entity Updated";
         public static string ErrorMessage = "The data you have entered does not comply with the rules. Please try again!";
+        public static string CarModelAlreadyExist = "Car model is already exist!";
+
 
     }
 }

@@ -15,6 +15,7 @@ namespace Entities.Concrete
         public int ColorId { get; set; }
         public string ModelYear { get; set; }
         public decimal DailyPrice { get; set; }
+        public string Description { get; set; }
         public string Model { get; set; }
         public byte RequiredDrivingLicenseAge { get; set; }
         public byte MinimumAgeLimit { get; set; }
