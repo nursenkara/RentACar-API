@@ -1519,6 +1519,22 @@
           "bin/placeholder/Core.dll": {}
         }
       },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11",
+          "NETStandard.Library": "2.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5893,6 +5909,11 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -5902,6 +5923,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Core >= 1.0.0",
+      "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.AspNetCore.Http.Features >= 5.0.12"
     ]
@@ -5935,6 +5957,9 @@
           "projectReferences": {
             "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\Core.csproj"
+            },
+            "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\DataAccess\\DataAccess.csproj"
             },
             "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Entities\\Entities.csproj"
