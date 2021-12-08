@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eak0iqxTHIPkPu3PYRjVXz9f6JJp4lTKp9HKYqJocWKAmMLG82NZWwnqj9Y5qXGgwHB/GQ+gMET8dIKFqxcpqw==",
+  "dgSpecHash": "4D2joHhDem8MQcgfdaVAB+cqE+H06IX5yPrWP7TfA1CrMNEP+JMfwOJrddxf/MgRdkQVko6wYdEfDp6bxs9bBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\RENT-A-CAR\\RentACar-BackEnd\\RentACar-BackEnd\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

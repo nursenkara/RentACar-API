@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\RENT-A-CAR\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\RENT-A-CAR\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\eğitim verileri\\4.sınıf\\ileri web\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\RENT-A-CAR\\RentACar-BackEnd\\RentACar-BackEnd\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

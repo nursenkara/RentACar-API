@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DataAccess
-build_property.ProjectDir = C:\Users\asus\Desktop\eğitim verileri\4.sınıf\ileri web\RentACar-BackEnd\RentACar-BackEnd\DataAccess\
+build_property.ProjectDir = C:\Users\asus\Desktop\RENT-A-CAR\RentACar-BackEnd\RentACar-BackEnd\DataAccess\
