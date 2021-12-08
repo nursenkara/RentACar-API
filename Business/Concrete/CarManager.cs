@@ -4,6 +4,7 @@ using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +43,33 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.EntitiesListed);
         }
 
-    
+        public IDataResult<List<CarDetailDto>> GetAllByBrandId(int id)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.BrandId == id));
+        }
+
+        public IDataResult<List<CarDetailDto>> GetAllByBrandIdAndColorId(int brandId, int colorId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.BrandId == brandId && c.ColorId == colorId));
+        }
+
+        public IDataResult<List<CarDetailDto>> GetAllByColorId(int id)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.ColorId == id));
+        }
+
+        
+
+        public IDataResult<List<CarDetailDto>> GetById(int id)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.Id == id));
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails());
+        }
+
         public IResult Update(Car car)
         {
             if (car.DailyPrice > 0 && car.Description.Length > 2)
@@ -61,6 +88,8 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
+
+
     }
 
 }

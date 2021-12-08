@@ -14,6 +14,8 @@ namespace Business.Constants
         public static string UpdatedMessage = "Entity Updated";
         public static string ErrorMessage = "The data you have entered does not comply with the rules. Please try again!";
         public static string CarModelAlreadyExist = "Car model is already exist!";
+        public static string RentalAddedErrorMessage = "Please return the car you picked up before submitting a rental car request.";
+        public static string RentalAddedMessage = "Car is successfuly rentaled!";
 
 
     }
